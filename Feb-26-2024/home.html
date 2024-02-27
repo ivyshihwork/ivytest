@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en" class="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="styling.css"> -->
+    <title>Ivy's Personal Website</title>
+</head>
+<body class="content">
+    <header>
+        <h1 class="center"><a id="top">Welcome to My Website!</a></h1>
+        <nav>
+            <table class="header">
+                <tr>
+                    <td><a href="">Home</a></td>
+                    <td><a href="#me">About Me</a></td>
+                    <td><a href="#hobbies">Hobbies</a></td>
+                    <td><a href="#projects">Projects</a></td>
+                    <td><a href="#contactme">Contact Me</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>
+        <!-- About Me -->
+        <section>
+            <h1><a id="me">About Me</a></h1>
+            <p>I was born and raised in <a href="https://www.taiwan.gov.tw">Taiwan</a>.  I immigranted to the US with families when I was 16.  I have settled in since then.  </p>
+            <p>Life is good in <a href="https://sfgov.org/visitors">San Francisco Bay Area</a>.  I enjoy the life here.  </p>
+        </section>
+        <hr>
+        <!-- Hobbies -->
+        <section>
+            <h1><a id="hobbies">Hobbies</a></h1>
+            <ul>
+                <li>Travel</li>
+                <li>Gaming - used to be extremely competitive, now chilling.  Here are some of the games I still play from time to time:</li>
+                <ul>
+                    <li><a href="https://www.fortnite.com/save-the-world" !>Fortnite - Save the World</a></li>
+                    <li><a href="https://www.bulletecho.game">Bullet Echo</a></li>
+                </ul>
+                <li>Cooking - I explore new and improve new recipies from <a href="http://www.youtube.com">YouTube</a> recommendations.  I make something new on a weekly basis.</li>
+            </ul>
+        </section>
+        <hr>
+        <!-- Projects -->
+        <section>
+            <h1><a id="projects">Projects</a></h1>
+            <p>Here are a list of the projects I try to complete from time to time:</p>
+            <ul>
+                <li>Crochet - I am working on a tablecloth that will use 3-4 1000m yarn</li>
+                <li>Coding bootcamps:</li>
+                <ul>
+                    <li>Joy Of Coding</li>
+                    <li><a href="https://onecodecamp.com">Onecodecamp</a></li>
+                    <ul>
+                        <li><a href="https://onecodecamp.com/landing-page/?course_id=27151">Basic Frontend coding bootcamp</a></li>
+                    </ul>
+                </ul>
+                <li>Health Improvements</li>
+                <ul>
+                    <li>Making healthy and delicious meals </li>
+                    <li>Daily walks: 2+ miles</li>
+                </ul>
+            </ul>
+
+        </section>
+        <hr>
+        <!-- Contact Me-->
+        <section class="center">
+            <h1><a id="contactme">Contact Me</a></h1>
+            <p>If you would like to drop a note to me, here is your opportunity!</p>
+            <form>
+                <table class="center">
+                    <tr>
+                        <td><label for="name">Name: </label></td>
+                        <td><input type="text" id="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email Address: </label></td>
+                        <td><input type="text" id="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="subject">Subject: </label></td>
+                        <td><input type="text" id="subject" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message: </label></td>
+                        <td><textarea id="message" rows="20" cols="80" placeholder="Enter message here" required></textarea></td>
+                    </tr>
+                </table>
+                
+                <p>Would you like a response?
+                <input type="radio" id="yes" name="response">
+                <label for="yes">Yes</label>
+                <input type="radio" id="np" name="response">
+                <label for="no">No</label></p>
+                <br>
+                <button type="submit" class="form-submit-button">Submit</button>
+            </form>
+
+        </section>
+        <hr>
+        <i><a ref="#top">Return to top</a></i>
+    </main>
+</body>
+</html>

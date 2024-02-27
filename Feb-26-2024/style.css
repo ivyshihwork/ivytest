@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+/* 
+
+Images:  this would have worked too!
+http://llw-magento-images-prod.s3.amazonaws.com/catalog/product/a/d/adobe-308493765_2.jpg
+
+questions
+1.  I got font set in html, but for form button it doesn't inherit font properties from HTML
+2.  Return to top using ID doesn't work 
+*/
+
+
+
+html {
+    color:darkgreen;
+    font-family: 'Anta';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+a:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+.bg {
+    background-image: url("https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8yNV9yZXRyb19kcmVhbXlfYV9wYWxlX3dpbGRmbG93ZXJfcGFsZV9ncmVlbl9nbF85YzE2YjdhMS04MWZjLTRiMjItODIxNi00NTAwZWFiNDVlMTlfMS5qcGc.jpg");
+    background-size: cover;
+    height: 100%;
+
+}
+
+.center {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+.content {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .form-submit-button {
+    background: darkgreen;
+    color: white;
+    font-family: 'Anta';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    height: 50px;
+    width: 100px;
+    font-size:large
+    }
+.form-submit-button:hover {
+    background: white;
+    color: darkgreen;
+    }
+
+input[type="text"] {
+    width: 100%;
+  }
+
+hr {
+    border: 3px solid green;
+    border-radius: 5px;
+  }
+
+table.center { margin-left:auto; margin-right:auto; }
+
+table.header {
+    max-width: 800px;
+    margin: auto;
+}
+td {padding-right: 20px;}
