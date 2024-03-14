@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0 10px 0 0;
+  color:darkgreen;
+  font-family: 'Anta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+section {
+  background-image: url("https://images.rawpixel.com/image_500/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsX29mZmljZV8yNV9yZXRyb19kcmVhbXlfYV9wYWxlX3dpbGRmbG93ZXJfcGFsZV9ncmVlbl9nbF85YzE2YjdhMS04MWZjLTRiMjItODIxNi00NTAwZWFiNDVlMTlfMS5qcGc.jpg");
+  background-size: cover;
+  height: 100%;
+
+}
+
+/* Footer Styling */
+footer {
+  background-color: darkgreen;
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 10px;
+  color: white;
+}
+
+
+/* Navbar Styles */
+nav {
+  background-color: darkgreen;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  /* padding: 0 20px; */
+}
+
+a:hover{
+  background-color: darkgreen;
+  color: white;
+}
+
+a:visited{
+  color: #d463bd;
+}
+
+.center {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.form-submit-button {
+  background: darkgreen;
+  color: white;
+  font-family: 'Anta';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size:large
+  }
+  
+.form-submit-button:hover {
+  background: white;
+  color: darkgreen;
+  }
+
+input[type="text"] {
+  width: 100%;
+}
+
+
+table.center { margin-left:auto; margin-right:auto; }
+
+table.header {
+    max-width: 1000px;
+    margin: auto;
+}
+td {padding-right: 20px;}
+
+/* About Styling */
+.about {
+  padding: 0 0 0 5px;
+  text-align: left;
+}
+.about ul li {
+  padding: 0 0 0 10px;
+  list-style-position: inside;
+  list-style: none;
+}
+
+/* Works Styling */
+.works {
+  display: flex;
+}
+
+.work {
+  padding: 20px;
+}
+
+.work-heading {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.work li {
+  list-style-position: inside;
+  /* list-style-type: none; */
+}
+/* Skills Styling */
+.skills-heading {
+  /* margin: 20px 0 20px 20px; */
+  margin: 20px 0 20px 20px;
+}
+
+.skills {
+  width: 70%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.skills tr:hover {
+  /* background-color: #ddd; */
+  background-color: darkgreen;
+  color: white;
+}
+.skills td, .skills th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+/* .skills tr:nth-child(even) {
+  background-color: #f2f2f2;
+} */
+
+.skills th {
+  padding: 12px 8px;
+  text-align: left;
+  /* background-color: #5bb600; */
+  background-color: darkgreen;
+  color: white;
+}
+
+
+
+
+/* Experience Styling */
+.exp-heading {
+  font-weight: bold;
+  margin: 20px 0 20px 20px;
+}
+
+.exp {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid #d2d2d2;
+  border-radius: 10px;
+  box-shadow: 0px 8px 5px rgba(0,0,0,0.22);
+}
+
+
+.exp h4 {
+  font-weight: bold;
+}
+
+.exp  ul li {
+  /* list-style: none; */
+  list-style-position: inside;
+  list-style-type: square;
+
+}
+
+table.job {
+  /* width: 100%; */
+  display:flexbox;
+  /* vertical-align:middle; */
+  margin: auto;
+  width: 100%;
+}
+
+td.job_title {
+  font-weight: bold;
+}
+
+td.company {
+  font-weight: bold;
+  text-align: left;
+}
+
+td.date {
+  font-weight: bold;
+  text-align: right;
+}
+
