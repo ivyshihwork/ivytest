@@ -5,11 +5,10 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Projects from './components/pages/Projects';
-import Footer from './components/Footer';
 
-// const Welcome = () => {
-//   return <p>Welcome!</p>
-// }
+const Welcome = () => {
+  return <p>Welcome!</p>
+}
 
 // JSX = JavaScript XML
 function App() {
@@ -21,11 +20,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
       <footer>
-        <p>&copy; Ivy Shih 2024. All rights reserved.</p>
+        <p>&copy; Ivy 2024. All rights reserved.</p>
       </footer>
     </div>
   );
